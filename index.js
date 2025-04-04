@@ -1,29 +1,46 @@
-const age = 15;
-console.log(age);
 
-const name = "Rostyslav Yanikin";
-console.log(name);
+const celsius = 100;
+const fahrenheit = (celsius * 1.8) + 32;
+console.log(fahrenheit);
 
-const isStudent = true;
-console.log(isStudent);
+const daysInMonth = 30;
 
-const myString = "Learn from yesterday, live for today, hope for tomorrow. ..."
-console.log(myString);
+const hoursInMonth = daysInMonth * 24;
+console.log(hoursInMonth);
 
-let myNumber = 99;
-myNumber += 10;
-console.log(myNumber);
+const minutesInMonth = hoursInMonth * 60;
+console.log(minutesInMonth)
 
-const myNull = null;
-console.log(myNull);
+let health = 0;
+health --;
+let energy = 0;
+energy --;
 
-const userName = window.prompt("Введіть своє ім’я");
-window.alert(userName);
-console.log("Тип змінної userName:", typeof userName)
+const totalPrice = 10;
+const discountPrice = totalPrice * 0.9;
+console.log(discountPrice);
 
-const userAnswer = window.confirm( "Ви дійсно хочете покинути сторінку?")
-console.log("Відповідь користувача:", userAnswer);
+// const floatNumber = 12.78;
+// const roundDown = Maths.floor(floatNumber);
+// console.log(roundDown);
 
-const alertMessage = alert("Увага! Дія може бути небезпечною.");
-const userConfirm = confirm("Ви впевнені, що хочете продовжити?")
-console.log("Користувач підтвердив дію:", userConfirm);
+const floatString = "45.67";
+const parsedFloat = Number.parseFloat(floatString)
+console.log(parsedFloat);
+
+const intString = "123";
+const parsedInt = Number.parseInt(intString);
+console.log(parsedInt);
+
+const number = 8;
+const sqrtNumber = Math.sqrt(8);
+console.log(sqrtNumber)
+
+const integer = 42;
+const stringNumber = "256";
+
+const convertedInt = parseInt(stringNumber);
+console.log(convertedInt);
+
+const convertedString = integer.toString();
+console.log(convertedString);  
