@@ -8,8 +8,11 @@ for(let i = 2; i <= 20; i += 2){
   console.log(i);
 }
 
-for(let i = 7; i <= 70; i+= 7){
-  console.log(i)
+const number = 7;
+
+console.log(`Таблиця множення для числа ${number}:`);
+for (let i = 1; i <= 10; i++) {
+    console.log(`${number} × ${i} = ${number * i}`);
 }
 
 const n = 10;
