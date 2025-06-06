@@ -60,3 +60,5 @@ function repeatMessage(times, messageCreator){
 repeatMessage(3, (i) => {
   console.log(`Simple message ${i}`);
 });
+
+
